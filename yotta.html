@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: auto; 
+}
+body{
+  background-color: blue;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h1{
+font-family:  Rubik, sans-serif;
+font-size: 51px;
+font-weight: 700;
+line-height: 56px;
+color: rgb(255,255,255);
+}
+p{
+
+color:white;
+font-size: 24px;
+font-family:  Rubik, sans-serif;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column" style="background-color:blue;">
+    <h1><b>Win up to $10 million<br> by saving in an FDIC<br> insured account.</b></h1>
+    <p>Get paid more on your savings plus the chance to win up to<br> $10 million every week. Only available in the U.S.</p>
+  </div>
+  <div class="column" style="background-color:blue; padding: 50px; float: left;">
+    <img src="https://uploads-ssl.webflow.com/5e2799a63cfa53ed07c2f5f0/5e308d72feb852ef1674db7c_HeaderPhones.png"width="300px">
+  </div>
+</div>
+
+</body>
+</html>
